@@ -1,0 +1,47 @@
+/* The navbar container */
+#nav-bar{
+    overflow: hidden;
+    background-color: #226774;
+    margin-top: auto;
+    margin-bottom: 5px;
+    height: 80px;
+    text-transform: uppercase;
+  }
+  
+  /* Navbar links */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  li{
+      text-decoration: none;
+      display: inline;
+    
+  }
+  #nav-bar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    
+  }
+  
+  /* meadi querry styling */
+  @media screen and (max-width: 600px) {
+    #nav-bar a {
+      float: none;
+      width: 100%;
+      }
+    }
+    a{
+        list-style: none;
+        text-decoration: none;
+    }
+    a.profile-link{
+      text-align: right;
+
+    }
